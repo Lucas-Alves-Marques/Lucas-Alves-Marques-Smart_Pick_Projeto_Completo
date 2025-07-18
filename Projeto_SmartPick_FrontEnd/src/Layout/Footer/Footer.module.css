@@ -1,0 +1,12 @@
+.body{
+    flex: 1;
+    background-color: #00437079;
+    backdrop-filter: blur(3px);
+    color: white;
+    display: flex;
+    padding: 0vh 0;
+}
+
+.body h3{
+    margin: auto;
+}

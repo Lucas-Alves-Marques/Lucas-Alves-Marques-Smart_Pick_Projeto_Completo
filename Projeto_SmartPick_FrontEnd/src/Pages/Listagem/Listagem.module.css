@@ -1,0 +1,54 @@
+.body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 8vh;
+    flex-wrap: wrap;
+}
+
+.background {
+    margin: auto;
+    display: flex;
+    width: 30vh;
+    height: 25vh;
+    text-align: center;
+    align-items: center;
+    justify-content: space-around;
+    flex-direction: column;
+    color: white;
+    background-color: #00437079;
+    backdrop-filter: blur(3px);
+    border-radius: 5vh;
+    border: 0.5vh solid white;
+}
+
+.background h1 {
+    width: 100%;
+}
+
+.backgroundMSG {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    display: flex;
+    padding: 1rem;
+    text-align: center;
+    align-items: center;
+    justify-content: space-around;
+    flex-direction: column;
+    color: white;
+    background-color: #004370e3;
+    border-radius: 2rem;
+    border: 3px solid white;
+}
+
+
+.backgroundMSG button {
+    margin: 1rem;
+    padding: 1vh 2vh;
+    border-radius: 1.5vh;
+    border: none;
+    cursor: pointer;
+
+}
